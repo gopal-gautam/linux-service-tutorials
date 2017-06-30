@@ -1,0 +1,16 @@
+create a file <filename>.desktop with content as
+
+[Desktop Entry]
+Version=1.0
+Name=Zend Studio
+Comment=PHP IDE for PHP development
+Type=Application
+Categories=Development;IDE;
+Exec=/home/{username}/Zend/ZendStudio/ZendStudio
+Terminal=false
+StartupNotify=true
+Icon=/home/{username}/Zend/ZendStudio/icon.xpm
+Name[en_US]=Zend Studio
+
+and save it in location /home/{username}/.local/share/applications or
+/usr/share/applications

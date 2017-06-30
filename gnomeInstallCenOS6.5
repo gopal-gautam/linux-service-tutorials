@@ -1,0 +1,8 @@
+yum groupinstall "Desktop" "Desktop Platform" "X Window System" "Fonts"
+yum groupinfo groupname
+yum -y groupinstall "General Purpose Desktop"
+yum grouplist
+#Start gnome Desktop
+startx
+#or
+/sbin/telinit 5
